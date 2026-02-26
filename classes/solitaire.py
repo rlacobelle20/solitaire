@@ -24,6 +24,7 @@ class Solitaire:
         }
     
     # needs to implement rules for card movemebt, draw pile, and win conditions
+    # need to represent hidden cards in piles and only show top card
     def start_game(self):
         pass
 
