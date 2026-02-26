@@ -20,3 +20,7 @@ playable version of solitaire
 - functional solitaire game
 - game that is beatable, if not beatable, must be able to restart
 - cards must be random
+
+# dependencies
+- pygame
+    ```pip install pygame```
