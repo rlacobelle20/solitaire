@@ -16,3 +16,12 @@ def main():
                 running = False
 
         screen.fill((0, 128, 0)) # green background
+
+        # render game here
+        game.start_game()
+
+        pygame.display.flip() # displays game on screen
+
+        clock.tick(60) # limits FPS to 60
+
+    pygame.quit()
